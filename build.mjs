@@ -1,7 +1,7 @@
 // Builds index.html (English), it/index.html and es/index.html from src/content.mjs, plus map.css.
 // Run: node build.mjs
 import { writeFileSync, mkdirSync } from 'node:fs';
-import { T, LANGS, TECH, PROJECTS, LINKS, STACKS, EMAIL, GITHUB, LINKEDIN, TESEO_OCR, SITE } from './src/content.mjs';
+import { T, LANGS, TECH, PROJECTS, LINKS, STACKS, EMAIL, GITHUB, LINKEDIN, TESEO_OCR, SITE, GOOGLE_VERIFICATION } from './src/content.mjs';
 
 const TODAY = new Date().toISOString().slice(0, 10);
 
@@ -123,6 +123,7 @@ function page(code) {
 <title>${esc(t.title)}</title>
 <meta name="description" content="${esc(t.description)}">
 <meta name="author" content="Francesco Carlucci">
+<meta name="google-site-verification" content="${GOOGLE_VERIFICATION}">
 <link rel="canonical" href="${SITE}${lang.dir}">
 ${LANGS.map((l) => `<link rel="alternate" hreflang="${l.code}" href="${SITE}${l.dir}">`).join('\n')}
 <link rel="alternate" hreflang="x-default" href="${SITE}">

@@ -1,5 +1,7 @@
 // All copy, per language. Facts come from LinkedIn, the project READMEs and the live sites; nothing invented.
 export const SITE = 'https://fracarlucci.github.io/';
+// Google Search Console ownership token (HTML tag method).
+export const GOOGLE_VERIFICATION = 'nXorQhJk1AV0s4T8OYnW0_fC-D4mnFCIscd5VVdzo2M';
 export const EMAIL = 'fra.carlucci.02@gmail.com';
 export const GITHUB = 'https://github.com/Fracarlucci';
 export const LINKEDIN = 'https://www.linkedin.com/in/francesco-carlucci1/';
