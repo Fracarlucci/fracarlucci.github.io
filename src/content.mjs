@@ -150,7 +150,7 @@ export const T = {
     mapLabel: 'Mapa de mis proyectos y de las tecnologías que usa cada uno',
     mapCaption: 'Pasa el ratón por un proyecto para ver con qué está hecho.',
     mapHead: ['Proyectos', 'Tecnologías'],
-    mapFacts: { teseo: '100.000+ usuarios', pingopongo: 'La liga de ping pong de la oficina', aetas: 'Tu vida en un reloj', showroom: 'Un concesionario 3D en el navegador' },
+    mapFacts: { teseo: '100.000+ usuarios', pingopongo: 'El ping pong de la oficina', aetas: 'Tu vida en un reloj', showroom: 'Un concesionario 3D en la web' },
     teseo: {
       h2: 'Teseo, el proyecto de mi tesis',
       body: 'Teseo ayuda a estudiantes de bachillerato a traducir y analizar latín y griego. Durante mis prácticas en MemorAIz lo migré a TypeScript, Payload CMS y PostgreSQL en AWS, con traducción y análisis en paralelo y en streaming.',
