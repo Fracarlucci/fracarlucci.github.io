@@ -1,0 +1,27 @@
+[
+ {
+  "shape": "Map / Diagram",
+  "theme": "console",
+  "axes": "dark/grotesk-sans/chromatic-amber",
+  "hero": "Poster",
+  "nav": "banner over a retracting bar",
+  "footer": "statement",
+  "imagery": "product screenshots",
+  "photos": [],
+  "entry": "map",
+  "fingerprint": "map-poster-banner-statement-console",
+  "sections": [
+   "hero map",
+   "reading (Teseo)",
+   "index of projects with screenshots",
+   "trail (experience)",
+   "panels (skills)",
+   "footer statement"
+  ],
+  "signature": "the stack map, each shipped project wired to what it runs on",
+  "waived": [],
+  "prompt": "personal website for Francesco Carlucci, software engineer at MemorAIz; recruiters and developers; projects Teseo, PingoPongo, Aetas, Car showroom",
+  "date": "2026-11-16",
+  "mode": "build"
+ }
+]
