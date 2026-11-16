@@ -1,4 +1,5 @@
 // All copy, per language. Facts come from LinkedIn, the project READMEs and the live sites; nothing invented.
+export const SITE = 'https://fracarlucci.github.io/';
 export const EMAIL = 'fra.carlucci.02@gmail.com';
 export const GITHUB = 'https://github.com/Fracarlucci';
 export const LINKEDIN = 'https://www.linkedin.com/in/francesco-carlucci1/';
@@ -23,8 +24,10 @@ export const PROJECTS = [
 
 export const T = {
   en: {
-    title: 'Francesco Carlucci, software engineer',
-    description: 'Francesco Carlucci builds full-stack web apps with language models inside, at MemorAIz in Bologna.',
+    title: 'Francesco Carlucci, Software Engineer in Bologna',
+    description: 'Francesco Carlucci, software engineer at MemorAIz in Bologna. Full-stack web apps with LLMs: Teseo, PingoPongo, Ætas and more.',
+    ogLocale: 'en_US',
+    ogAlt: 'Francesco Carlucci, software engineer, with a map of his projects and the technologies they run on',
     skip: 'Skip to content',
     langLabel: 'Language',
     nav: { teseo: 'Teseo', projects: 'Projects', experience: 'Experience' },
@@ -81,8 +84,10 @@ export const T = {
   },
 
   it: {
-    title: 'Francesco Carlucci, software engineer',
-    description: 'Sono Francesco Carlucci, software engineer presso MemorAIz a Bologna. Sviluppo web app full-stack con l’AI generativa.',
+    title: 'Francesco Carlucci, Software Engineer a Bologna',
+    description: 'Francesco Carlucci, software engineer presso MemorAIz a Bologna. Web app full-stack basate su LLM: Teseo, PingoPongo, Ætas e altri progetti.',
+    ogLocale: 'it_IT',
+    ogAlt: 'Francesco Carlucci, software engineer, con la mappa dei suoi progetti e delle tecnologie usate',
     skip: 'Vai al contenuto',
     langLabel: 'Lingua',
     nav: { teseo: 'Teseo', projects: 'Progetti', experience: 'Esperienza' },
@@ -139,13 +144,15 @@ export const T = {
   },
 
   es: {
-    title: 'Francesco Carlucci, ingeniero de software',
-    description: 'Soy Francesco Carlucci, ingeniero de software en MemorAIz, en Bolonia. Desarrollo aplicaciones web full-stack con IA generativa.',
+    title: 'Francesco Carlucci, ingeniero de software en Bolonia',
+    description: 'Francesco Carlucci, ingeniero de software en MemorAIz, en Bolonia. Aplicaciones web full-stack con LLM: Teseo, PingoPongo, Ætas y más.',
+    ogLocale: 'es_ES',
+    ogAlt: 'Francesco Carlucci, ingeniero de software, con el mapa de sus proyectos y las tecnologías que usan',
     skip: 'Ir al contenido',
     langLabel: 'Idioma',
     nav: { teseo: 'Teseo', projects: 'Proyectos', experience: 'Experiencia' },
     h1: 'Francesco Carlucci, ingeniero de software',
-    lede: 'Desarrollo aplicaciones web full-stack con LLM en MemorAIz, en Bolonia.',
+    lede: 'Desarrollo aplicaciones web full‑stack con LLM en MemorAIz, en Bolonia.',
     write: 'Escríbeme',
     mapLabel: 'Mapa de mis proyectos y de las tecnologías que usa cada uno',
     mapCaption: 'Pasa el ratón por un proyecto para ver con qué está hecho.',
