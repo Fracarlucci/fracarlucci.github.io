@@ -3,7 +3,8 @@
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { T, LANGS, TECH, PROJECTS, LINKS, STACKS, EMAIL, GITHUB, LINKEDIN, TESEO_OCR, SITE, GOOGLE_VERIFICATION } from './src/content.mjs';
 
-const TODAY = new Date().toISOString().slice(0, 10);
+const NOW = new Date().toISOString().replace(/\.\d{3}Z$/, 'Z'); // full date-time with timezone, as schema.org dateModified requires
+const TODAY = NOW.slice(0, 10);
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -71,7 +72,7 @@ function jsonLd(code) {
     inLanguage: code,
     name: t.title,
     description: t.description,
-    dateModified: TODAY,
+    dateModified: NOW,
     mainEntity: {
       '@type': 'Person',
       '@id': SITE + '#francesco',
